@@ -1,0 +1,20 @@
+GREETING
+
+loop
+
+GET loan amount
+SET loan amount variable = L
+
+GET APR
+
+SET APR variable
+
+GET loan duration (months)
+
+SET loan duration variable
+
+calculate monthly interest rate: (APR/100)/12 = c
+
+calculate monthly payment (P)
+
+P = L[c(1 + c)n]/[(1 + c)n - 1]
